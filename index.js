@@ -19,6 +19,4 @@ pfServer.listen(PORT, ()=>{
     console.log(`Server started Port:${PORT}`);
 })
 
-pfServer.get('/',(req,res)=>{
-    res.send("hello world")
-})
+
